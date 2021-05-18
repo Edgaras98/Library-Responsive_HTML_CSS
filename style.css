@@ -1,0 +1,114 @@
+body {
+  background-color: #eee;
+}
+
+.container {
+  padding: 0.5rem;
+  background-color: white;
+  text-align: center;
+}
+
+.container img {
+  width: 10rem;
+}
+.container a {
+  color: blueviolet;
+  text-decoration: none;
+  display: block;
+}
+
+.container a:last-child {
+  margin: 1rem;
+}
+.container a:hover {
+  text-decoration: underline;
+}
+main {
+  margin-top: 1rem;
+}
+.field {
+  border-radius: 1rem;
+  padding: 4rem;
+  width: 50%;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 0 20px 10px rgba(44, 43, 43, 0.192);
+}
+.table,
+th,
+td {
+  padding: 0.5rem;
+  width: 50%;
+  border-bottom: 1px solid rgb(119, 113, 113);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+footer {
+  text-align: center;
+  padding: 5rem;
+}
+
+.contacts {
+  background-color: white;
+  text-align: left;
+  border-radius: 1rem;
+  padding: 4rem;
+  width: 50%;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 0 20px 10px rgba(44, 43, 43, 0.192);
+}
+input {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+label {
+  padding-bottom: 1rem;
+  display: block;
+  color: rgb(168, 161, 149);
+}
+
+button {
+  background-color: rgb(146, 87, 201);
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #eee;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    width: 100%;
+    background-color: white;
+  }
+  header .container {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .container a {
+    display: inline;
+  }
+  .field {
+    width: 75%;
+    text-align: left;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  .top {
+    width: 50%;
+    box-sizing: border-box;
+  }
+
+  input {
+    width: 80%;
+  }
+}
